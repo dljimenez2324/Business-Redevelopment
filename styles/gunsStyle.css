@@ -41,3 +41,9 @@
     border-top-left-radius: 1rem;
 
 }
+
+
+.cardScroll{
+    max-height: 120px;
+    overflow-y: auto;
+}
