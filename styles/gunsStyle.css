@@ -6,6 +6,19 @@
     background-image: url(../media/lightGrayConcreteWall.png);
 }
 
+.tT{
+    font-size: 45px;
+    font-weight: bold;
+    color: #0C2633;
+    background-color: #FFCD29;
+    display: inline-block;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.shadow {
+    filter: drop-shadow(0 1mm 1mm rgba(0, 0, 0, 0.50));
+}
+
 .tc{
     text-align: center;
     
@@ -14,11 +27,17 @@
 
 .tBc{
     background-color: #FFCD29;
-    margin-right: 43%;
-    margin-left: 43%;
+    /* margin-right: 43%;
+    margin-left: 43%; */
 
 }
 
 .cS{
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.cC{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+
 }
