@@ -1,9 +1,15 @@
 .back{
     background-image: url(../media/Page-Background.png);
+
 }
 
 .conB{
     background-image: url(../media/lightGrayConcreteWall.png);
+    padding-bottom: 3rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .tT{
@@ -46,4 +52,27 @@
 .cardScroll{
     max-height: 120px;
     overflow-y: auto;
+}
+
+.gunSafePosition{
+    justify-content: end;
+    margin-top: 1.5rem;
+    
+}
+
+.gunSafeText{
+    /* display: flex; */
+    text-align: start;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 1.5rem;
+}
+
+.gunSafeImg{
+    /* margin-bottom: 10rem; */
+    bottom: 7rem;
+}
+
+.gunSafeCon{
+    height: 19.9rem;
 }
