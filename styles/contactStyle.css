@@ -39,7 +39,11 @@ body {
 /*  TRYING TO CHANGE IMAGE TO FIT OR CHANGE MARGIN PADDING ON INFO SIDE OR GRAPHIC ENLARGMENT */
 
 .contSpace {
-    margin: 2rem;
+    /* margin: 2rem; */
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
 
 }
 
