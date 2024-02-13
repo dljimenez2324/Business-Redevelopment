@@ -94,3 +94,42 @@
 .gunSafeList{
     padding-top: 2rem;
 }
+
+
+.navBG {
+    background-color: #ffcd29;
+    padding: 10px 5px;
+  }
+  
+  .resNavBG {
+    background-color: #ffcd29;
+  }
+  
+  .navtext {
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    color: black;
+  }
+  
+  .resNavText {
+    font-size: 24px;
+    font-family: "Merriweather", serif;
+  }
+  
+  .main-wrapper {
+    position: relative;
+  }
+  
+  .wrapper {
+    position: absolute;
+  }
+  
+  .navbar-nav {
+    --bs-nav-link-color: black;
+  }
+  .navPadding {
+    padding-top: 55px;
+    padding-bottom: 60px;
+    padding-left: 55px;
+    z-index: -1;
+  }
