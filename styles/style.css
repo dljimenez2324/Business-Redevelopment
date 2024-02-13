@@ -1,32 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Reem+Kufi&display=swap');
-
+/* Start Index Page Styles */
 body {
-    background-image: url('../media/Page-Background.png');
-    font-family: 'Open Sans', sans-serif;
+  background-image: url("../media/Page-Background.png");
+  font-family: "Open Sans", sans-serif;
 }
 
+/* Start Navbar Style */
+.navBG {
+  background-color: #ffcd29;
+  padding: 10px 5px;
+}
+
+.resNavBG {
+  background-color: #ffcd29;
+}
+
+.navtext {
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+  color: black;
+}
+
+.resNavText {
+  font-size: 24px;
+  font-family: "Merriweather", serif;
+}
+
+.main-wrapper {
+  position: relative;
+}
+
+.wrapper {
+  position: absolute;
+}
+
+.navbar-nav {
+  --bs-nav-link-color: black;
+}
+.navPadding {
+  padding-top: 55px;
+  padding-bottom: 60px;
+  padding-left: 55px;
+  z-index: -1;
+}
+/* End NavBar Styles */
+
+
+/* Start Hero Carousel Section */
 .bg {
-    width: 100%;
+  width: 100%;
 }
+/* End Hero Carousel Section */
 
-.welCont {
+
+/* Start Title Section */
+.bgWelcome {
     display: flex;
     justify-content: center;
+    background-image: url("../media/lightGrayConcreteWall.png");
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.welCont {
+    /* margin: 2rem; */
+    max-width: 90%;
     
 }
 
-/* Title Section */
 .title {
     font-size: 45px;
     font-weight: bold;
-    color: #0C2633;
-    background-color: #FFCD29;
+    color: #0c2633;
+    background-color: #ffcd29;
     display: inline-block;
-    font-family: 'Reem Kufi', sans-serif;
+    font-family: "Reem Kufi", sans-serif;
     /* margin: 2rem; */
     margin-bottom: 2rem;
 }
 
 .shadow {
-    filter: drop-shadow(0 1mm 1mm rgba(0, 0, 0, 0.50));
+    filter: drop-shadow(0 1mm 1mm rgba(0, 0, 0, 0.5));
 }
+/* End Title Section */
