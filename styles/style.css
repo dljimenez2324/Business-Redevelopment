@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Reem+Kufi&display=swap');
+
+body {
+    background-image: url('../media/Page-Background.png');
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg {
+    width: 100%;
+}
+
+.welCont {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Title Section */
+.title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #0C2633;
+    background-color: #FFCD29;
+    display: inline-block;
+    font-family: 'Reem Kufi', sans-serif;
+    /* margin: 2rem; */
+    margin-bottom: 2rem;
+}
+
+.shadow {
+    filter: drop-shadow(0 1mm 1mm rgba(0, 0, 0, 0.50));
+}
