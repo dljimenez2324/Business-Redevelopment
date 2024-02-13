@@ -77,11 +77,10 @@
 
 .gunSafeCon{
     height: 19.9rem;
-    padding-right: 10rem;
+    /* padding-right: 10rem; */
 
 }
 
-.gunSafeImgCon{
-  
-
+.card-group{
+    gap: 1.5rem;
 }
