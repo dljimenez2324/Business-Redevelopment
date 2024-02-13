@@ -84,3 +84,13 @@
 .card-group{
     gap: 1.5rem;
 }
+
+.gunSafeTextFont{
+   font-size: 16px;
+   color: #0C2633;
+
+}
+
+.gunSafeList{
+    padding-top: 2rem;
+}
