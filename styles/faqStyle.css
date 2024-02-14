@@ -1,0 +1,108 @@
+/* FONTS
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Reem Kufi', sans-serif; */
+
+.bg {
+    background: url("../media/Page-Background.png");
+}
+.bgWhite {
+    background: url("../media/lightGrayConcreteWall.png")
+}
+
+
+
+.title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #0C2633;
+    background-color: #FFCD29;
+    display: inline-block;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.shadow {
+    filter: drop-shadow(0 1mm 1mm rgba(0, 0, 0, 0.50));
+}
+
+.faqSub {
+    color: #0C2633;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.faqSubRes {
+    color: #0C2633;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.faqText {
+    color: #0C2633;
+    ont-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: start;
+}
+.faqTextRes {
+    color: #0C2633;
+    ont-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: start;
+}
+.cardBorder{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.navBG {
+    background-color: #FFCD29;
+    padding: 10px 5px;
+}
+
+.resNavBG{
+    background-color: #FFCD29;
+}
+
+.navtext {
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+.resNavText{
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+}
+
+.main-wrapper{
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: black;
+}
+.navPadding {
+    padding-top: 55px;
+    padding-bottom: 60px;
+    padding-left:55px;
+    z-index: -1;
+}
+.footerText {
+    text-align: center;
+    color: #ffcd29;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .icons-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .border {
+    border-radius: 10px;
+  }
+  .faqBorder {
+    border-radius: 10px;
+  }
