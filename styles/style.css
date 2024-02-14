@@ -4,6 +4,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+p{
+  font-family: "Open Sans", sans-serif;
+  color:#0c2633;
+  font-weight: 600;
+}
+
 /* Start Navbar Style */
 .navBG {
   background-color: #ffcd29;
@@ -54,8 +60,8 @@ body {
 
 /* Start Title Section */
 .bgWelcome {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     background-image: url("../media/lightGrayConcreteWall.png");
     margin: 1rem;
     border-radius: 1rem;
@@ -74,10 +80,40 @@ body {
     display: inline-block;
     font-family: "Reem Kufi", sans-serif;
     /* margin: 2rem; */
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .shadow {
     filter: drop-shadow(0 1mm 1mm rgba(0, 0, 0, 0.5));
 }
 /* End Title Section */
+
+
+/* Start Welcome to Section */
+.pM {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.title2 {
+  font-weight: bold;
+  color: #0c2633;
+  background-color: #ffcd29;
+  display: inline-block;
+  font-family: "Reem Kufi", sans-serif;
+}
+/* End Welcome to Section */
+
+
+/* Start Footer Styles */
+.footerText {
+    text-align: center;
+    color: #ffcd29;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .icons-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+/* End Footer Styles */
