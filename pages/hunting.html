@@ -1,26 +1,661 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/huntingStyle.css">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../styles/huntingStyle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Open+Sans:wght@400;500;600;700&family=Reem+Kufi:wght@700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bg">
+
+  <div class="container-fluid px-5 main-wrapper d-none d-lg-block">
+    <div>
+      <div class="wrapper my-4">
+        <img src="../media/logo.png" alt="" width="120px">
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navPadding mx-5 ">
+      <div class="container-fluid navBG ps-5 py-0 navtext ">
+        <a class="nav-link" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex justify-content-around" style="width: 100%;">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Hunting & Fishing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Guns</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="d-block d-lg-none">
+    <nav class="navbar navbar-expand-lg resNavBG py-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../media/logo.png" alt="" width="65px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-end pe-4 resNavText" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hunting & Fishing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Guns</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <!--CAROUSEL---------------------------->
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../media/huntingOG 1.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="../media/hunting-older-man-catching-a-fish-while-fly-fishing-in-a-river-free-photo 1.png"
+          class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="../media/hunting-fishing-rods.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="../media/hunting-rifle-field.png" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+  </div>
+
+
+  <!--HUNTING SECTION-->
+
+  <div class="container-fluid mt-5 mb-5 px-0 d-none d-lg-block">
+    <div class="text-margin bgWhite border">
+      <div class="row mt-4">
+        <div class="col-12 d-flex justify-content-center ">
+          <p class="text-center title px-3 shadow">HUNTING</p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="huntingText ps-5 pe-1">
+              We have everything the duck, deer, turkey or all around big-game
+              hunter needs. Our waterfowl section is comprehensive and filled
+              with duck calls, waterfowl gear and accessories. From waders to
+              decoys, motion decoys and dog vests, we have everything the duck
+              hunter needs for the waterfowl season.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="huntingText ps-5 pe-1 pb-5">
+              Outdoor Sportsman also has a great selection of deer and big
+              game hunting equipment. We carry a variety of rifle ammunition,
+              as well as shotgun shells and gun cleaning equipment. We are
+              your one stop shop for all of your hunting needs
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RESPONSIVENESS HUNTING -->
+  <div class="container-fluid my-5 px-0 d-block d-lg-none">
+    <div class="res-text-margin bgWhite border">
+      <div class="row px-0">
+        <div class="col-12 px-0 d-flex justify-content-center">
+          <div>
+            <p class="text-center titleRes px-3 mt-4 shadow">
+              HUNTING
+            </p>
+          </div>
+          <p></p>
+        </div>
+      </div>
+      <div class="row px-0">
+        <div class="col">
+          <p class="huntingTextRes px-4">
+            We have everything the duck, deer, turkey or all around big-game
+            hunter needs. Our waterfowl section is comprehensive and filled
+            with duck calls, waterfowl gear and accessories. From waders to
+            decoys, motion decoys and dog vests, we have everything the duck
+            hunter needs for the waterfowl season.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="huntingTextRes px-4 pb-3">
+            Outdoor Sportsman also has a great selection of deer and big
+            game hunting equipment. We carry a variety of rifle ammunition,
+            as well as shotgun shells and gun cleaning equipment. We are
+            your one stop shop for all of your hunting needs
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
+  <!--FISHING SECTION-->
+
+  <div class="container-fluid fishingBox d-none d-lg-block">
+    <div class="bgWhite text-margin border">
+      <div class="row">
+        <div class="col-5 d-flex align-items-stretch">
+          <img src="../media/hunting-fishing.png" class="img-fluid fishingImg " alt="...">
+        </div>
+        <div class="col-7 px-0">
+
+          <div class="row mt-4">
+            <div class="col-12 ps-0 d-flex justify-content-center ">
+              <p class="text-center title px-3 shadow">FISHING</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mt-3 ps-0">
+              <p class="huntingText px-4 mx-2">
+                For the expert of recreational fisherman we have a wide variety of rods, reels, line and bait. The
+                Stockton/San Joaquin Delta is filled with striped bass and sturgeon and we have a huge selection of
+                equipment available to help you catch your limit.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col ps-0">
+              <p class="huntingText px-4 mx-2 pb-2 mb-0">
+                Let our staff help you choose the rod and reel that is right for you. Whether you are salmon fishing in
+                the
+                San Francisco Bay or sitting in your drift boat, the Outdoor sportsman has a wide variety of fishing
+                equipment to meet your needs.
+              </p>
+            </div>
+          </div>
+
+          <div class="container ps-0 accordion-Bg mb-5 ">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item accordion-Bg">
+                <h2 class="accordion-header acTitle">
+                  <button class="accordion-button accordion-Bg acTitle" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    We are licensed dealers of the following fishing brands:
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body acText">
+                    <div class="row underline-text">
+                      <div class="col">
+                        <ul>
+                          <li><a href="https://fish.shimano.com/landing" target="_blank">SHIMANO</a>
+                          </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          DAIWA
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          OKUMA
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          G LOOMIS
+                        </li>
+                      </div>
+                      </ul>
+                    </div>
+                    <div class="row underline-text">
+                      <div class="col">
+                        <ul>
+                          <li>SHAKESPEAR</li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          ST CROIX
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          FENWICK
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          ABU GARCIA
+                        </li>
+                      </div>
+                      </ul>
+                    </div>
+                    <div class="row underline-text">
+                      <div class="col">
+                        <ul>
+                          <li>E21</li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          BERKELEY
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          SEEKER
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          STRIKE KING
+                        </li>
+                      </div>
+                      </ul>
+                    </div>
+                    <div class="row underline-text">
+                      <div class="col">
+                        <ul>
+                          <li>RAPALA</li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          YO-ZURE
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          LUCKY CRAFT
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          RIVER2SEA
+                        </li>
+                      </div>
+                      </ul>
+                    </div>
+                    <div class="row underline-text">
+                      <div class="col">
+                        <ul>
+                          <li>P-LINE</li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          REBEL
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          LUHRJENSEN
+                        </li>
+                      </div>
+                      <div class="col">
+                        <li>
+                          BILL LEWIS
+                        </li>
+                      </div>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="d-none d-md-block d-lg-none">
+    <div class="container-fluid px-0">
+      <div class="row mb-5">
+        <div class="col px-0">
+          <img class="img-fluid" src="../media/hunting-fishing-rods.png" alt="">
+        </div>
+      </div>
+      <div class="bgWhite res-text-margin border">
+        <div class="row">
+          <div class="col-12 ps-0 d-flex justify-content-center ">
+            <p class="text-center title px-3 shadow my-4">FISHING</p>
+          </div>
+          <div class="col-12">
+            <p class="huntingTextRes px-4 mx-2">
+              For the expert of recreational fisherman we have a wide variety of rods, reels, line and bait. The
+              Stockton/San Joaquin Delta is filled with striped bass and sturgeon and we have a huge selection of
+              equipment available to help you catch your limit.
+            </p>
+          </div>
+          <div class="col-12">
+            <p class="huntingTextRes px-4 mx-2 pb-2 mb-0">
+              Let our staff help you choose the rod and reel that is right for you. Whether you are salmon fishing in
+              the
+              San Francisco Bay or sitting in your drift boat, the Outdoor sportsman has a wide variety of fishing
+              equipment to meet your needs.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="container px-0 mx-0 accordion-Bg mb-3 ">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item accordion-Bg">
+                  <h2 class="accordion-header acTitle px-4 ">
+                    <button class="accordion-button accordion-Bg acTitle" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      We are licensed dealers of the following fishing brands:
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body acTextRes">
+                      <div class="row underline-text">
+                        <div class="col">
+                          <ul>
+                            <li><a href="https://fish.shimano.com/landing" target="_blank">SHIMANO</a>
+                            </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            DAIWA
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            OKUMA
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            G LOOMIS
+                          </li>
+                        </div>
+                        </ul>
+                      </div>
+                      <div class="row underline-text">
+                        <div class="col">
+                          <ul>
+                            <li>SHAKESPEAR</li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            ST CROIX
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            FENWICK
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            ABU GARCIA
+                          </li>
+                        </div>
+                        </ul>
+                      </div>
+                      <div class="row underline-text">
+                        <div class="col">
+                          <ul>
+                            <li>E21</li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            BERKELEY
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            SEEKER
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            STRIKE KING
+                          </li>
+                        </div>
+                        </ul>
+                      </div>
+                      <div class="row underline-text">
+                        <div class="col">
+                          <ul>
+                            <li>RAPALA</li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            YO-ZURE
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            LUCKY CRAFT
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            RIVER2SEA
+                          </li>
+                        </div>
+                        </ul>
+                      </div>
+                      <div class="row underline-text">
+                        <div class="col">
+                          <ul>
+                            <li>P-LINE</li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            REBEL
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            LUHRJENSEN
+                          </li>
+                        </div>
+                        <div class="col">
+                          <li>
+                            BILL LEWIS
+                          </li>
+                        </div>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-block d-md-none">
+    <div class="container-fluid px-0">
+      <div class="row mb-5">
+        <div class="col px-0">
+          <img class="img-fluid" src="../media/hunting-fishing-rods.png" alt="">
+        </div>
+      </div>
+      <div class="bgWhite res-text-margin border">
+        <div class="row">
+          <div class="col-12 ps-0 d-flex justify-content-center ">
+            <p class="text-center title px-3 shadow my-4">FISHING</p>
+          </div>
+          <div class="col-12">
+            <p class="huntingTextRes px-4 mx-2">
+              For the expert of recreational fisherman we have a wide variety of rods, reels, line and bait. The
+              Stockton/San Joaquin Delta is filled with striped bass and sturgeon and we have a huge selection of
+              equipment available to help you catch your limit.
+            </p>
+          </div>
+          <div class="col-12">
+            <p class="huntingTextRes px-4 mx-2 pb-2 mb-0">
+              Let our staff help you choose the rod and reel that is right for you. Whether you are salmon fishing in
+              the
+              San Francisco Bay or sitting in your drift boat, the Outdoor sportsman has a wide variety of fishing
+              equipment to meet your needs.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="container px-0 mx-0 accordion-Bg mb-3 ">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item accordion-Bg">
+                  <h2 class="accordion-header acTitle px-4 ">
+                    <button class="accordion-button accordion-Bg acTitle" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      We are licensed dealers of the following fishing brands:
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body acTextRes px-2">
+                      <div class="row underline-text px-0 mx-0">
+                        <div class="col-4 px-0 mx-0">
+                          <ul>
+                            <li><a href="https://fish.shimano.com/landing" target="_blank">SHIMANO</a>
+                            </li>
+                            <li>
+                              DAIWA
+                            </li>
+                            <li>
+                              OKUMA
+                            </li>
+                            <li>RAPALA</li>
+                            <li>
+                              G LOOMIS
+                            </li>
+                            <li>
+                              LUCKY CRAFT
+                            </li>
+
+                          </ul>
+                        </div>
+                        <div class="col-4 px-0 mx-0">
+                          <ul>
+                            <li>SHAKESPEAR</li>
+                            <li>
+                              ST CROIX
+                            </li>
+                            <li>
+                              FENWICK
+                            </li>
+                            <li>
+                              ABU GARCIA
+                            </li>
+                            <li>
+                              YO-ZURE
+                            </li>
+                            <li>
+                              REBEL
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-4 px-0 mx-0">
+                          <ul>
+                            <li>E21</li>
+                            <li>
+                              BERKELEY
+                            </li>
+                            <li>
+                              SEEKER
+                            </li>
+                            <li>
+                              STRIKE KING
+                            </li>
+                            <li>
+                              RIVER2SEA
+                            </li>
+                            <li>P-LINE</li>
+                          </ul>
+                        </div>
+                      </div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+  <!-- footer -->
+  <div class="container mt-5 d-none d-lg-block">
+    <div class="row">
+      <div class="col-md-8 footerText icons-right pe-5">
+        <p>© 2024, Outdoor Sportsman. All Rights Reserved.</p>
+      </div>
+      <div class="col-6 col-md-4 icons-right">
+        <img src="../media/Instagram_icon 1.png" class="pe-1" alt="Instagram Logo">
+        <img src="../media/vecteezy_facebook-png-icon_16716481 1.png" alt="Facebook Logo">
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 d-block d-lg-none ">
+    <div class="row">
+      <div class="col-12 footerText ">
+        <p>© 2024, Outdoor Sportsman. All Rights Reserved.</p>
+      </div>
 
 
 
+      <!-- No Touchy -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
 
-
-
-
-
-    <!-- No Touchy -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
 </html>

@@ -1,0 +1,156 @@
+/* FONTS 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Reem Kufi', sans-serif; */
+
+.bg {
+    background: url("../media/Page-Background.png");
+  }
+  .bgWhite {
+    background: url("../media/lightGrayConcreteWall.png");
+  }
+  .border {
+    border-radius: 10px;
+  }
+  .title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #0c2633;
+    background-color: #ffcd29;
+    display: inline-block;
+    font-family: "Reem Kufi", sans-serif;
+  }
+  
+  .titleRes {
+      font-size: 35px;
+      font-weight: bold;
+      color: #0c2633;
+      background-color: #ffcd29;
+      display: inline-block;
+      font-family: "Reem Kufi", sans-serif;
+  }
+  
+  .huntingText {
+    font-size: 20px;
+    color: #0c2633;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+  
+  .huntingTextRes {
+      font-size: 18px;
+      color: #0c2633;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+  }
+  
+  .shadow {
+    filter: drop-shadow(0 1mm 1mm rgba(0, 0, 0, 0.5));
+  }
+  .fishingImg {
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .fishingBox {
+    display: flex;
+    padding: 0;
+    border-radius: 15px;
+  }
+  
+  .accordion-Bg,
+  accordion-header.active {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .acTitle {
+    font-size: 20px;
+    color: #0c2633;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+  }
+  acText {
+    font-size: 20px;
+    color: #0c2633;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+  
+  .acTextRes {
+      font-size: 16px;
+      color: #0c2633;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+  }
+  
+  .underline-text {
+    text-decoration: underline;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .footerText {
+    text-align: center;
+    color: #ffcd29;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .icons-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navBG {
+    background-color: #ffcd29;
+    padding: 10px 5px;
+  }
+  
+  .resNavBG {
+    background-color: #ffcd29;
+  }
+  
+  .navtext {
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    color: black;
+  }
+  
+  .resNavText {
+    font-size: 24px;
+    font-family: "Merriweather", serif;
+  }
+  
+  .main-wrapper {
+    position: relative;
+  }
+  
+  .wrapper {
+    position: absolute;
+  }
+  
+  .navbar-nav {
+    --bs-nav-link-color: black;
+  }
+  .navPadding {
+    padding-top: 55px;
+    padding-bottom: 60px;
+    padding-left: 55px;
+    z-index: -1;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:hover {
+    color: rgb(78, 78, 202);
+    font-weight: 800;
+  }
+  
+  .text-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .res-text-margin {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  
