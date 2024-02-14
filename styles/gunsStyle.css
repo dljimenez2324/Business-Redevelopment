@@ -133,3 +133,14 @@
     padding-left: 55px;
     z-index: -1;
   }
+
+  .footerText {
+    text-align: center;
+    color: #ffcd29;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .icons-right {
+    display: flex;
+    justify-content: flex-end;
+  }
