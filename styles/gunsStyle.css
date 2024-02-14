@@ -153,3 +153,17 @@
     display: inline-block;
     font-family: 'Reem Kufi', sans-serif;
   }
+
+  .mobileFireArms{
+    flex-direction: column;
+    
+    align-items: center;
+  }
+
+  .mobileCardBg{
+    background-image: url(../media/lightGrayConcreteWall.png);
+  }
+  
+
+  
+
