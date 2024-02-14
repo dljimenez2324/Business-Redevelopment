@@ -144,3 +144,12 @@
     display: flex;
     justify-content: flex-end;
   }
+
+  .title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #0C2633;
+    background-color: #FFCD29;
+    display: inline-block;
+    font-family: 'Reem Kufi', sans-serif;
+  }
