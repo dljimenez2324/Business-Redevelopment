@@ -4,10 +4,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-p{
+.pText{
   font-family: "Open Sans", sans-serif;
   color:#0c2633;
   font-weight: 600;
+  font-size: 20px;
 }
 
 /* Start Navbar Style */
@@ -104,11 +105,22 @@ p{
 }
 /* End Welcome to Section */
 
+/* Start Visit Us Section */
+.mVis {
+  margin-bottom: 2rem;
+}
+.visText {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0c2633;
+  font-family: "Open Sans", sans-serif;
+}
+/* End Visit Us Section */
 
 /* Start Footer Styles */
 .footerText {
     text-align: center;
-    color: #ffcd29;
+    color: #ffcd29 !important;
     font-size: 13px;
     font-family: "Open Sans", sans-serif;
   }
