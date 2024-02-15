@@ -11,17 +11,107 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../styles/contactStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Open+Sans:wght@400;500;600;700&family=Reem+Kufi:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Contact</h1>
-
     <!-- Start NavBar -->
+    <div class="container-fluid px-5 main-wrapper d-none d-lg-block">
+      <div>
+        <div class="wrapper my-4">
+          <img src="../media/logo.png" alt="" width="120px" />
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navPadding mx-5">
+        <div class="container-fluid navBG ps-5 py-0 navtext">
+          <a class="nav-link" href="#">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="navbar-nav d-flex justify-content-around"
+              style="width: 100%"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  >Hunting & Fishing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Guns</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
 
+    <div class="d-block d-lg-none">
+      <nav class="navbar navbar-expand-lg resNavBG py-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../media/logo.png" alt="" width="65px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-end pe-4 resNavText"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hunting & Fishing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Guns</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
     <!-- End NavBar -->
 
     <!-- Start Contact Card -->
     <div class="container">
-      <div class="card mb-3 cardWide" style="max-width: 1262px">
+      <div class="card mb-3 cardWide">
         <div class="row g-0">
           <div class="col-md-6">
             <div class="card-body contSpace">
@@ -37,25 +127,25 @@
               <p class="pTSize">(209) 957-4867</p>
 
               <h3 class="mTop1"><b>Name</b></h3>
-              <input type="text">
-              <input type= "text" class="mx-3">
+              <input type="text" />
+              <input type="text" class="mx-3" />
 
               <h3 class="mTop2"><b>Email</b></h3>
-              <input type="email">
+              <input type="email" />
 
               <h3 class="mTop2"><b>Comment or Messages</b></h3>
               <form class="mBot">
-                <textarea>Some test...</textarea>
+                <textarea>Add your response here...</textarea>
               </form>
 
               <button type="button" class="btn btnColor"><b>Submit</b></button>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 d-flex justify-content-end">
             <img
               src="../media/contact-man-rifle.png"
               class="imgFit"
-              alt="..."
+              alt="man walking in wild dry field with rifle"
             />
           </div>
         </div>
