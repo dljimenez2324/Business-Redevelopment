@@ -1,3 +1,184 @@
+.back{
+    background-image: url(../media/Page-Background.png);
+
+}
+
+.conB{
+    background-image: url(../media/lightGrayConcreteWall.png);
+    padding-bottom: 3rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.tT{
+    font-size: 45px;
+    font-weight: bold;
+    color: #0C2633;
+    background-color: #FFCD29;
+    display: inline-block;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.shadow {
+    filter: drop-shadow(0 1mm 1mm rgba(0, 0, 0, 0.50));
+}
+
+.tc{
+    text-align: center;
+    
+   
+}
+
+.tBc{
+    background-color: #FFCD29;
+    /* margin-right: 43%;
+    margin-left: 43%; */
+
+}
+
+.cS{
+    justify-content: space-evenly;
+}
+
+.cC{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+
+}
+
+
+.cardScroll{
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.gunSafePosition{
+    justify-content: end;
+    margin-top: 1.5rem;
+    
+}
+
+.gunSafeText{
+    /* display: flex; */
+    text-align: end;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    margin-left: 0rem;
+}
+
+.gunSafeImg{
+    /* margin-bottom: 10rem; */
+    bottom: 7rem;
+    
+}
+
+.gunSafeCon{
+    height: 19.9rem;
+    /* padding-right: 10rem; */
+
+}
+
+.card-group{
+    gap: 1.5rem;
+}
+
+.gunSafeTextFont{
+   font-size: 16px;
+   color: #0C2633;
+
+}
+
+.gunSafeList{
+    padding-top: 2rem;
+}
+
+
+.navBG {
+    background-color: #ffcd29;
+    padding: 10px 5px;
+  }
+  
+  .resNavBG {
+    background-color: #ffcd29;
+  }
+  
+  .navtext {
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    color: black;
+  }
+  
+  .resNavText {
+    font-size: 24px;
+    font-family: "Merriweather", serif;
+  }
+  
+  .main-wrapper {
+    position: relative;
+  }
+  
+  .wrapper {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .navbar-nav {
+    --bs-nav-link-color: black;
+  }
+  .navPadding {
+    padding-top: 55px;
+    padding-bottom: 60px;
+    padding-left: 55px;
+    z-index: 0;
+  }
+
+  .footerText {
+    text-align: center;
+    color: #ffcd29;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .icons-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #0C2633;
+    background-color: #FFCD29;
+    display: inline-block;
+    font-family: 'Reem Kufi', sans-serif;
+  }
+
+  .mobileFireArms{
+    flex-direction: column;
+    
+    align-items: center;
+  }
+
+  .mobileCardBg{
+    background-image: url(../media/lightGrayConcreteWall.png);
+  }
+  
+
+  .mobileGunSafeCon{
+    width: 20rem;
+    /* height: 20rem; */
+  }
+
+  .mobileGunSafeImg{
+    width: 14rem;
+  }
+
+  .cardOutLine{
+    outline: 1px solid black;
+  }
+
 
 
 
