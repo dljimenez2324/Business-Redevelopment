@@ -10,6 +10,12 @@ body {
   font-weight: 600;
   font-size: 20px;
 }
+.pTextRes {
+  font-size: 18px;
+  color: #0c2633;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
 
 /* Start Navbar Style */
 .navBG {
@@ -84,6 +90,14 @@ body {
     /* margin: 2rem; */
     /* margin-bottom: 2rem; */
 }
+.titleRes {
+  font-size: 35px;
+  font-weight: bold;
+  color: #0c2633;
+  background-color: #ffcd29;
+  display: inline-block;
+  font-family: "Reem Kufi", sans-serif;
+}
 
 .shadow {
     filter: drop-shadow(0 1mm 1mm rgba(0, 0, 0, 0.5));
@@ -113,6 +127,12 @@ body {
 .visText {
   font-weight: bold;
   font-size: 40px;
+  color: #0c2633;
+  font-family: "Open Sans", sans-serif;
+}
+.visTextRes {
+  font-weight: bold;
+  font-size: 25px;
   color: #0c2633;
   font-family: "Open Sans", sans-serif;
 }
