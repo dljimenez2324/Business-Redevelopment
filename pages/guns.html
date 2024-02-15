@@ -1,22 +1,611 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous" />
-    <link rel="stylesheet" href="../styles/gunsStyle.css" />
-  </head>
-  <body>
-   
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../styles/gunsStyle.css" />
+</head>
+
+<body class="back">
+
+  <div class="container-fluid px-5 main-wrapper d-none d-lg-block">
+    <div>
+      <div class="wrapper my-4">
+        <img src="../media/logo.png" alt="" width="120px">
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navPadding mx-5 ">
+      <div class="container-fluid navBG ps-5 py-0 navtext ">
+        <a class="nav-link" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex justify-content-around" style="width: 100%;">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Hunting & Fishing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Guns</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="d-block d-lg-none">
+    <nav class="navbar navbar-expand-lg resNavBG py-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../media/logo.png" alt="" width="65px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-end pe-4 resNavText" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hunting & Fishing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Guns</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+  <div class="container conB d-none d-lg-block" style="margin-top: 3rem">
+    <div class="container d-flex justify-content-center" style="padding-top: 1rem">
+      <h2 class="tc tT tBc shadow">FIREARMS</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="gunSafeTextFont">
+            We stock many diffrent firearms in our store from the following
+            manufacture. If we dont have something in stock we would love to
+            special order it for you. Although most of the more popular
+            firearms are legal for sale in California many are not. To see if
+            the firearm you are interested in his legal in California check
+            here. Peace Officers are able to purchase firearms not on the
+            roster. For Price and availability please call us from our contact
+            page. " This is not comprehensive list, for the full brands we
+            carry, come to the store call us."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row card-group cS d-flex justify-content-center">
+
+        <div class="col-3 ">
+          <div class="card cC" style="width: 20rem">
+            <img src="../media/guns-pistol.png" class="card-img-top" alt="..." />
+            <div class="card-body cardOutLine">
+              <h5 class="card-title text-center">Pistols</h5>
+              <div class="container">
+                <div class="row cardScroll">
+                  <div class="col">
+                    <a href="https://www.armscor.com">
+                      <li>Armscor</li>
+                    </a>
+                    <a href="https://charterfirearms.com">
+                      <li>Charter Arms</li>
+                    </a>
+                    <a href="https://www.colt.com">
+                      <li>Colt</li>
+                    </a>
+                    <a href="https://ruger.com">
+                      <li>Ruger</li>
+                    </a>
+                    <a href="https://waltherarms.com">
+                      <li>Walther</li>
+                    </a>
+                    <a href="https://heritagemfg.com">
+                      <li>Heritage</li>
+                    </a>
+                    <!-- <a href=""><li>Ruger</li></a> -->
+                    <a href="https://www.springfield-armory.com">
+                      <li>SpringField</li>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="https://www.beretta.com/en-us">
+                      <li>Beretta</li>
+                    </a>
+                    <a href="https://fnamerica.com">
+                      <li>FNH USA</li>
+                    </a>
+                    <a href="https://us.glock.com/en">
+                      <li>Glock</li>
+                    </a>
+                    <a href="https://www.browning.com">
+                      <li>Browning</li>
+                    </a>
+                    <a href="https://www.taurususa.com">
+                      <li>Taurus</li>
+                    </a>
+                    <a href="https://www.kimberamerica.com">
+                      <li>Kimber</li>
+                    </a>
+                    <a href="https://www.kahr.com">
+                      <li>Kahr Arms</li>
+                    </a>
+                    <a href="https://www.sigsauer.com">
+                      <li>Sig Sauer</li>
+                    </a>
+                    <a href="https://www.uberti-usa.com">
+                      <li>Uberti</li>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card cC" style="width: 20rem">
+            <img src="../media/guns-BrettaShotgun 1.png" class="card-img-top" alt="..." />
+            <div class="card-body cardOutLine">
+              <h5 class="card-title text-center">Shotguns</h5>
+              <div class="contianer">
+                <div class="row cardScroll">
+                  <div class="col">
+                    <a href="https://www.remington.com">
+                      <li>Remington</li>
+                    </a>
+                    <a href="https://www.beretta.com/en-us">
+                      <li>Beretta</li>
+                    </a>
+                    <a href="https://www.benelliusa.com">
+                      <li>Beneili</li>
+                    </a>
+                    <a href="https://www.browning.com">
+                      <li>Browning</li>
+                    </a>
+                    <a href="https://www.winchesterguns.com">
+                      <li>Winchester</li>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="https://stoegerindustries.com">
+                      <li>Stoeger</li>
+                    </a>
+                    <a href="https://www.franchiusa.com">
+                      <li>Franchi</li>
+                    </a>
+                    <a href="https://www.mossberg.com">
+                      <li>Mossberg</li>
+                    </a>
+                    <a href="https://weatherby.com">
+                      <li>Weatherby</li>
+                    </a>
+                    <a href="https://www.armscor.com">
+                      <li>Armscor</li>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card cC" style="width: 20rem">
+            <img src="../media/guns-Sniper 1.png" class="card-img-top" alt="..." />
+            <div class="card-body cardOutLine">
+              <h5 class="card-title text-center">Rifles</h5>
+              <div class="row cardScroll">
+                <div class="col">
+                  <a href="https://www.remington.com">
+                    <li>Remington</li>
+                  </a>
+                  <a href="https://www.beretta.com/en-us">
+                    <li>Beretta</li>
+                  </a>
+                  <a href="https://www.benelliusa.com">
+                    <li>Benili</li>
+                  </a>
+                  <a href="https://www.browning.com">
+                    <li>Browning</li>
+                  </a>
+                  <a href="https://franklinarmory.com">
+                    <li>Franklin</li>
+                  </a>
+                  <a href="https://www.sigsauer.com">
+                    <li>Sig Sauer</li>
+                  </a>
+                  <a href="https://www.kimberamerica.com">
+                    <li>Kimber</li>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="https://www.savagearms.com">
+                    <li>Savage</li>
+                  </a>
+                  <a href="https://ruger.com">
+                    <li>Ruger</li>
+                  </a>
+                  <a href="https://www.mossberg.com">
+                    <li>Mossberg</li>
+                  </a>
+                  <a href="https://weatherby.com">
+                    <li>Weatherby</li>
+                  </a>
+                  <a href="https://www.winchesterguns.com">
+                    <li>Winchester</li>
+                  </a>
+                  <a href="https://www.del-ton.com">
+                    <li>Delton</li>
+                  </a>
+                  <a href="https://www.armscor.com">
+                    <li>Armscor</li>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Mobile Top on Guns page -->
+
+  <div class="container conB d-block d-lg-none" style="margin-top: 3rem">
+    <div class="container d-flex justify-content-center" style="padding-top: 1rem">
+      <h2 class="tc tT tBc shadow">FIREARMS</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="gunSafeTextFont">
+            We stock many diffrent firearms in our store from the following
+            manufacture. If we dont have something in stock we would love to
+            special order it for you. Although most of the more popular
+            firearms are legal for sale in California many are not. To see if
+            the firearm you are interested in his legal in California check
+            here. Peace Officers are able to purchase firearms not on the
+            roster. For Price and availability please call us from our contact
+            page. " This is not comprehensive list, for the full brands we
+            carry, come to the store call us."
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container mt-5 d-block d-lg-none">
+    <div class="row card-group cS d-flex justify-content-center mobileFireArms">
+
+      <div class="col-3 mobileFireArms d-flex justify-content-center">
+        <div class="card  cC" style="width: 20rem">
+          <img src="../media/guns-pistol.png" class="card-img-top " alt="..." />
+          <div class="card-body mobileCardBg">
+            <h5 class="card-title text-center">Pistols</h5>
+            <div class="container">
+              <div class="row cardScroll">
+                <div class="col">
+                  <a href="https://www.armscor.com">
+                    <li>Armscor</li>
+                  </a>
+                  <a href="https://charterfirearms.com">
+                    <li>Charter Arms</li>
+                  </a>
+                  <a href="https://www.colt.com">
+                    <li>Colt</li>
+                  </a>
+                  <a href="https://ruger.com">
+                    <li>Ruger</li>
+                  </a>
+                  <a href="https://waltherarms.com">
+                    <li>Walther</li>
+                  </a>
+                  <a href="https://heritagemfg.com">
+                    <li>Heritage</li>
+                  </a>
+                  <!-- <a href=""><li>Ruger</li></a> -->
+                  <a href="https://www.springfield-armory.com">
+                    <li>SpringField</li>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="https://www.beretta.com/en-us">
+                    <li>Beretta</li>
+                  </a>
+                  <a href="https://fnamerica.com">
+                    <li>FNH USA</li>
+                  </a>
+                  <a href="https://us.glock.com/en">
+                    <li>Glock</li>
+                  </a>
+                  <a href="https://www.browning.com">
+                    <li>Browning</li>
+                  </a>
+                  <a href="https://www.taurususa.com">
+                    <li>Taurus</li>
+                  </a>
+                  <a href="https://www.kimberamerica.com">
+                    <li>Kimber</li>
+                  </a>
+                  <a href="https://www.kahr.com">
+                    <li>Kahr Arms</li>
+                  </a>
+                  <a href="https://www.sigsauer.com">
+                    <li>Sig Sauer</li>
+                  </a>
+                  <a href="https://www.uberti-usa.com">
+                    <li>Uberti</li>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 mobileFireArms d-flex justify-content-center">
+        <div class="card cC" style="width: 20rem">
+          <img src="../media/guns-BrettaShotgun 1.png" class="card-img-top" alt="..." />
+          <div class="card-body mobileCardBg">
+            <h5 class="card-title text-center">Shotguns</h5>
+            <div class="contianer">
+              <div class="row cardScroll">
+                <div class="col">
+                  <a href="https://www.remington.com">
+                    <li>Remington</li>
+                  </a>
+                  <a href="https://www.beretta.com/en-us">
+                    <li>Beretta</li>
+                  </a>
+                  <a href="https://www.benelliusa.com">
+                    <li>Beneili</li>
+                  </a>
+                  <a href="https://www.browning.com">
+                    <li>Browning</li>
+                  </a>
+                  <a href="https://www.winchesterguns.com">
+                    <li>Winchester</li>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="https://stoegerindustries.com">
+                    <li>Stoeger</li>
+                  </a>
+                  <a href="https://www.franchiusa.com">
+                    <li>Franchi</li>
+                  </a>
+                  <a href="https://www.mossberg.com">
+                    <li>Mossberg</li>
+                  </a>
+                  <a href="https://weatherby.com">
+                    <li>Weatherby</li>
+                  </a>
+                  <a href="https://www.armscor.com">
+                    <li>Armscor</li>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 mobileFireArms d-flex justify-content-center">
+        <div class="card cC" style="width: 20rem">
+          <img src="../media/guns-Sniper 1.png" class="card-img-top" alt="..." />
+          <div class="card-body mobileCardBg">
+            <h5 class="card-title text-center">Rifles</h5>
+            <div class="row cardScroll">
+              <div class="col">
+                <a href="https://www.remington.com">
+                  <li>Remington</li>
+                </a>
+                <a href="https://www.beretta.com/en-us">
+                  <li>Beretta</li>
+                </a>
+                <a href="https://www.benelliusa.com">
+                  <li>Benili</li>
+                </a>
+                <a href="https://www.browning.com">
+                  <li>Browning</li>
+                </a>
+                <a href="https://franklinarmory.com">
+                  <li>Franklin</li>
+                </a>
+                <a href="https://www.sigsauer.com">
+                  <li>Sig Sauer</li>
+                </a>
+                <a href="https://www.kimberamerica.com">
+                  <li>Kimber</li>
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://www.savagearms.com">
+                  <li>Savage</li>
+                </a>
+                <a href="https://ruger.com">
+                  <li>Ruger</li>
+                </a>
+                <a href="https://www.mossberg.com">
+                  <li>Mossberg</li>
+                </a>
+                <a href="https://weatherby.com">
+                  <li>Weatherby</li>
+                </a>
+                <a href="https://www.winchesterguns.com">
+                  <li>Winchester</li>
+                </a>
+                <a href="https://www.del-ton.com">
+                  <li>Delton</li>
+                </a>
+                <a href="https://www.armscor.com">
+                  <li>Armscor</li>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container conB gunSafeCon my-5 d-none d-lg-block">
+    <div class="row">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 gunSafePosition d-flex">
+            <h1 class="tT tc shadow">GUN SAFES</h1>
+            <!-- <p class="gunSafeText">If you need a safe place to keep your firearm, come and talk to our experienced staff. We carry a wide assoertment from the following brands. If we dont have something in stock we should be happy to special order it for you. Delivery is available on most of our guns.</p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="container gunSafeText px-0">
+        <div class="row">
+          <div class="col-3 px-0">
+            <div class="container gunSafeImgCon">
+              <div class="card gunSafeImg" style="width: 18rem">
+                <img src="../media/guns-gunsafe 1.png" class="card-img-top gunSafeImg" alt="..." />
+                <!-- <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-9 text-start pe-5">
+            <p class="gunSafeTextFont pe-5">
+              If you need a safe place to keep your firearm, come and talk to
+              our experienced staff. We carry a wide assoertment from the
+              following brands. If we dont have something in stock we should
+              be happy to special order it for you. Delivery is available on
+              most of our guns.
+            </p>
+
+            <div class="row gunSafeList">
+              <div class="col ">
+                <li>Browning</li>
+              </div>
+              <div class="col">
+                <li>Heritage Safe Co.</li>
+              </div>
+              <div class="col">
+                <li>Stack-on</li>
+              </div>
+              <div class="col">
+                <li>Amsec</li>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <!-- Mobile GunSafe Section -->
+
+
+
+  <div class="container conB mobileGunSafeCon my-5 d-block d-lg-none ">
+    <div class="row text-center">
+      <div class="col pt-3">
+        <h1 class="tT  shadow">GUN SAFES</h1>
+
+        <img class=" pt-3 mobileGunSafeImg" src="../media/guns-gunsafe 1.png">
+
+        <p class="pt-3"> If you need a safe place to keep your firearm, come and talk to
+          our experienced staff. We carry a wide assoertment from the
+          following brands. If we dont have something in stock we should
+          be happy to special order it for you. Delivery is available on
+          most of our guns.</p>
+
+          <div class="contianer">
+          <div class="row">
+            <div class="col-6 ">
+              <li class="">Browning</li>
+              <li class="pe-1">Heritage</li>
+            </div>
+            
+            
+            <div class="col-6">
+              <li class="">Stack-on</li>
+              <li class="pe-3">Amsec</li>
+            </div>
+           </div> 
+           </div>
+          
+            
+          
+          
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+    <div class="container mt-5 d-none d-lg-block">
+      <div class="row">
+        <div class="col-md-8 footerText icons-right pe-5">
+          <p>© 2024, Outdoor Sportsman. All Rights Reserved.</p>
+        </div>
+        <div class="col-6 col-md-4 icons-right">
+          <img src="../media/Instagram_icon 1.png" class="pe-1" alt="Instagram Logo">
+          <img src="../media/vecteezy_facebook-png-icon_16716481 1.png" alt="Facebook Logo">
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 d-block d-lg-none ">
+      <div class="row">
+        <div class="col-12 footerText ">
+          <p>© 2024, Outdoor Sportsman. All Rights Reserved.</p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+          crossorigin="anonymous"></script>
+</body>
+
 </html>
+
