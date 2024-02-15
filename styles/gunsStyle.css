@@ -175,3 +175,7 @@
     width: 14rem;
   }
 
+  .cardOutLine{
+    outline: 1px solid black;
+  }
+
