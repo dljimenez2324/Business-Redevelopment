@@ -79,6 +79,7 @@ font-family: 'Reem Kufi', sans-serif; */
 
 .wrapper {
     position: absolute;
+    z-index: 1;
 }
 
 .navbar-nav {
@@ -88,7 +89,7 @@ font-family: 'Reem Kufi', sans-serif; */
     padding-top: 55px;
     padding-bottom: 60px;
     padding-left:55px;
-    z-index: -1;
+    z-index: 0;
 }
 .footerText {
     text-align: center;
