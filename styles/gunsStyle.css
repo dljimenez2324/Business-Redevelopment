@@ -67,6 +67,7 @@
     font-size: 20px;
     margin-top: 1.5rem;
     margin-left: 0rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 .gunSafeImg{
@@ -179,6 +180,11 @@
     outline: 1px solid black;
   }
 
+  .listColor{
+    color: black;
+}
 
-
-
+a:link, a:visited{
+    text-decoration: none !important;
+    
+  }
