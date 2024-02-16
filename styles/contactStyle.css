@@ -55,6 +55,15 @@ body {
     max-width: 95%;
 }
 
+/* Card width and center res tablet & mobile */
+.cardWide2 {
+  display: flex;
+  justify-content: center;
+  background-image: url('../media/lightGrayConcreteWall.png');
+  border-radius: 15px;
+  max-width: 100%;
+}
+
 /* Title Section */
 .title {
     font-size: 45px;
@@ -73,13 +82,13 @@ body {
 
 .imgFit {
     width:fit-content;
-    padding-left: 3.2%;
+    padding-left: 0.25rem;
     /* padding-top: 0%;
     padding-bottom: 0%;
     border-style: none; */
 }
 
-/*  TRYING TO CHANGE IMAGE TO FIT OR CHANGE MARGIN PADDING ON INFO SIDE OR GRAPHIC ENLARGMENT */
+/*  TRYING TO CHANGE IMAGE TO FIT OR CHANGE MARGIN PADDING ON INFO SIDE OR GRAPHIC ENLARGeMENT */
 
 .contSpace {
     /* margin: 2rem; */
@@ -114,3 +123,16 @@ textArea {
 .btnColor {
     background-color: #FFCD29;
 }
+
+/* Start Footer Styles */
+.footerText {
+  text-align: center;
+  color: #ffcd29 !important;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+.icons-right {
+  display: flex;
+  justify-content: flex-end;
+}
+/* End Footer Styles */
