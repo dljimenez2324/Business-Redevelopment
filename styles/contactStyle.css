@@ -46,6 +46,11 @@ body {
   /* End NavBar Styles */
 
 
+  /* Container margins */
+  .contMargin {
+    margin-left: 5.5rem;
+  }
+
 /* Specifies the card's width and centering */
 .cardWide {
     display: flex;
@@ -55,7 +60,7 @@ body {
     max-width: 95%;
 }
 
-/* Card width and center res tablet & mobile */
+/* Card width and center responsive tablet & mobile */
 .cardWide2 {
   display: flex;
   justify-content: center;
