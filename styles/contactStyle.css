@@ -48,7 +48,9 @@ body {
 
   /* Container margins */
   .contMargin {
-    margin-left: 5.5rem;
+    display:flex;
+    justify-content: center;
+    /* margin-left: 5.5rem; */
   }
 
 /* Specifies the card's width and centering */
@@ -57,7 +59,7 @@ body {
     justify-content: center;
     background-image: url('../media/lightGrayConcreteWall.png');
     border-radius: 15px;
-    max-width: 95%;
+    max-width: 97%;
 }
 
 /* Card width and center responsive tablet & mobile */
@@ -87,9 +89,9 @@ body {
 
 .imgFit {
     width:fit-content;
-    padding-left: 0.25rem;
-    /* padding-top: 0%;
-    padding-bottom: 0%;
+    padding-left: 1.2rem;
+    padding-top: .2rem;
+    /*padding-bottom: 0%;
     border-style: none; */
 }
 
