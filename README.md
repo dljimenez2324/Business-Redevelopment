@@ -20,7 +20,7 @@ You will be taking a local business and do a redesign to their existing site. Th
 <br><br>
 
 <b>Resources:</b> <br>
-<b>GitHub:</b> https://github.com/dljimenez2324/Hangman <br>
+<b>GitHub:</b> https://github.com/dljimenez2324/Business-Redevelopment <br>
 
 <b>Changes:</b> <br>
 See GitHub for history of changes
