@@ -1,6 +1,6 @@
 # Project Business Redevelopment
 
-<b>Name:</b> David Jimenez <br>
+<b>Group Member Names:</b> David Jimenez, Johnny Pham, Samuel Laguna<br>
 <b>Project:</b> Project - Busniess Redevelopment <br>
 <b>Date:</b> 02/19/2024 <br>
 <strong>Description:</strong>
