@@ -1,4 +1,4 @@
-# Project Business Redevelopment
+# Project - Business Redevelopment
 
 <b>Group Member Names:</b> David Jimenez, Johnny Pham, Samuel Laguna<br>
 <b>Project:</b> Project - Busniess Redevelopment <br>
