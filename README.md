@@ -26,3 +26,5 @@ You will be taking a local business and do a redesign to their existing site. Th
 See GitHub for history of changes
 <b>Reviewer:</b> <br>
 <b>Name:</b> Alicia Bryant <br>
+
+I love the way the website turned out. From the color palletes chosen to the way everything was organized. The website is much more digestible and everything is responsive. Great job you guys!!
