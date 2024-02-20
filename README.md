@@ -21,6 +21,7 @@ You will be taking a local business and do a redesign to their existing site. Th
 
 <b>Resources:</b> <br>
 <b>GitHub:</b> https://github.com/dljimenez2324/Business-Redevelopment <br>
+<b>Figma:</b> https://www.figma.com/file/jCHJVC500QkQUshIxpe0Xl/Outdoor-Sportsman?type=design&node-id=0%3A1&mode=design&t=PsWeVH0iQcIT5CkN-1  <br>
 
 <b>Changes:</b> <br>
 See GitHub for history of changes
