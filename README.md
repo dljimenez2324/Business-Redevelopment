@@ -1,7 +1,7 @@
 # Project - Business Redevelopment
 
 <b>Group Member Names:</b> David Jimenez, Johnny Pham, Samuel Laguna<br>
-<b>Project:</b> Project - Busniess Redevelopment <br>
+<b>Project:</b> Project - Business Redevelopment <br>
 <b>Date:</b> 02/19/2024 <br>
 <strong>Description:</strong>
 You will be taking a local business and do a redesign to their existing site. This redesign should improve their site and make it more up to date. This assignment will require you to have the following:
@@ -27,4 +27,4 @@ See GitHub for history of changes
 <b>Reviewer:</b> <br>
 <b>Name:</b> Alicia Bryant <br>
 
-I love the way the website turned out. From the color palletes chosen to the way everything was organized. The website is much more digestible and everything is responsive. Great job you guys!!
+I love the way the website turned out. From the color palettes chosen to the way everything was organized. The website is much more digestible and everything is responsive. Great job you guys!!
